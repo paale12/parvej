@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Paale G — Portfolio</title>
+<link rel="icon" href="GG.jpg">
+<meta content="Colorful, dynamic, animated portfolio of Paale G" name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet">
+<script defer="" src="script.js"></script>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/4c3f1b0c6f.js"></script>
+</link></head>
+<body>
+<!-- Animated gradient background -->
+<div class="bg-blob bg-blob--one"></div>
+<div class="bg-blob bg-blob--two"></div>
+<div class="bg-blob bg-blob--three"></div>
+<!-- Header / Nav -->
+<header class="container nav">
+<a class="logo" href="GG.jpg">Paale <span>G</span></a>
+<nav id="nav">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+<button aria-label="Menu" class="hamburger" id="hamburger">
+<span></span><span></span><span></span>
+</button>
+</header>
+<!-- Hero -->
+<section class="hero container" id="home">
+<div class="hero__left">
+<h1 class="reveal-up">Hi, I'm <span class="accent">Paale G</span></h1>
+<h2 class="typing reveal-up">
+<span id="type"></span><span class="cursor">|</span>
+</h2>
+<p class="muted reveal-up">I build beautiful, dynamic web experiences with clean code and delightful interactions.</p>
+<div class="cta reveal-up">
+<a class="btn btn--primary" href="#projects">See Projects</a>
+<a class="btn btn--ghost" href="#contact">Hire Me</a>
+</div>
+<div class="social reveal-up">
+<a aria-label="GitHub" href="https://github.com/paale12" target="_blank"><i class="fab fa-github"></i></a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/in/mohd-parvej-aalam-a637a52b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a aria-label="Email" href="mailto:you@example.com"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+<div class="hero__right reveal-up">
+<div class="profile-glow">
+<img alt="parvej" class="profile" src="G.jpg">
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="about container section" id="about">
+<div class="section-head">
+<h3 class="section-title reveal-up">About Me</h3>
+<p class="section-subtitle reveal-up">Computer Engineering • JavaScript • Node.js • React • SQL • MongoDB</p>
+</div>
+<div class="about__grid">
+<div class="about__card reveal-up">
+<h4>Who am I?</h4>
+<p>
+          I'm a software enthusiast who loves crafting colorful, animated UIs and solving real problems.
+          I focus on clarity, performance and a touch of playfulness.
+        </p>
+</div>
+<div class="about__card reveal-up">
+<h4>What I do</h4>
+<ul class="tick">
+<li>Modern, responsive web apps</li>
+<li>REST APIs with Node.js &amp; Express</li>
+<li>Clean, reusable components</li>
+<li>Fast, SEO-friendly websites</li>
+</ul>
+</div>
+<div class="about__card reveal-up">
+<h4>Highlights</h4>
+<ul class="tick">
+<li>Computer Engineering</li>
+<li>Projects: Spotify Clone, Personal Website</li>
+<li>Strong in Java &amp; OOP fundamentals</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Skills -->
+<section class="skills container section" id="skills">
+<div class="section-head">
+<h3 class="section-title reveal-up">Skills</h3>
+<p class="section-subtitle reveal-up">Colorful cards + animated progress bars</p>
+</div>
+<div class="skills__grid">
+<div class="skill-card reveal-up">
+<i class="fab fa-html5"></i>
+<h4>HTML</h4>
+<div class="bar" data-value="95"><span></span></div>
+</div>
+<div class="skill-card reveal-up">
+<i class="fab fa-css3-alt"></i>
+<h4>CSS</h4>
+<div class="bar" data-value="90"><span></span></div>
+</div>
+<div class="skill-card reveal-up">
+<i class="fab fa-js-square"></i>
+<h4>JavaScript</h4>
+<div class="bar" data-value="88"><span></span></div>
+</div>
+<div class="skill-card reveal-up">
+<i class="fab fa-react"></i>
+<h4>React</h4>
+<div class="bar" data-value="80"><span></span></div>
+</div>
+<div class="skill-card reveal-up">
+<i class="fab fa-node-js"></i>
+<h4>Node.js</h4>
+<div class="bar" data-value="82"><span></span></div>
+</div>
+<div class="skill-card reveal-up">
+<i class="fas fa-database"></i>
+<h4>SQL / MongoDB</h4>
+<div class="bar" data-value="78"><span></span></div>
+</div>
+</div>
+</section>
+<!-- Projects -->
+<section class="projects container section" id="projects">
+<div class="section-head">
+<h3 class="section-title reveal-up">Featured Projects</h3>
+<p class="section-subtitle reveal-up">Hover to see the glow and details</p>
+</div>
+<div class="projects__grid">
+<article class="project-card reveal-up">
+<div class="project-card__img"></div>
+<div class="project-card__body">
+<h4>Spotify Clone</h4>
+<p>Responsive music UI with playlists, player controls and animations.</p>
+<div class="tags">
+<span>HTML</span><span>CSS</span><span>JS</span>
+</div>
+<div class="actions">
+<a class="btn btn--tiny" href="#">Live</a>
+<a class="btn btn--tiny btn--ghost" href="https://github.com/paale12">Code</a>
+</div>
+</div>
+</article>
+<article class="project-card reveal-up">
+<div class="project-card__img"></div>
+<div class="project-card__body">
+<h4>Personal Website</h4>
+<p>Clean, fast portfolio with smooth scroll and animated sections.</p>
+<div class="tags">
+<span>HTML</span><span>CSS</span><span>JS</span>
+</div>
+<div class="actions">
+<a class="btn btn--tiny" href="#">Live</a>
+<a class="btn btn--tiny btn--ghost" href="https://github.com/paale12">Code</a>
+</div>
+</div>
+</article>
+<article class="project-card reveal-up">
+<div class="project-card__img"></div>
+<div class="project-card__body">
+<h4>REST API Starter</h4>
+<p>Node + Express boilerplate with auth-ready structure.</p>
+<div class="tags">
+<span>Node</span><span>Express</span><span>JWT</span>
+</div>
+<div class="actions">
+<a class="btn btn--tiny" href="#">Docs</a>
+<a class="btn btn--tiny btn--ghost" href="https://github.com/paale12">Code</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Contact -->
+<section class="contact container section" id="contact">
+<div class="section-head">
+<h3 class="section-title reveal-up">Contact</h3>
+<p class="section-subtitle reveal-up">Let's build something colorful and dynamic!</p>
+</div>
+<form class="contact__form reveal-up" onsubmit="event.preventDefault(); alert('Thanks! I will get back to you soon.');">
+<div class="grid">
+<input placeholder="Your Name" required="" type="text"/>
+<input placeholder="Email Address" required="" type="email"/>
+</div>
+<textarea placeholder="Your message..." required="" rows="5"></textarea>
+<button class="btn btn--primary" type="submit">Send Message</button>
+</form>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<p>© <span id="year"></span> Paale G • Built with ♥</p>
+<a aria-label="Back to top" class="to-top" href="#home" id="toTop"><i class="fas fa-arrow-up"></i></a>
+</div>
+</footer>
+</body>
+</html>
